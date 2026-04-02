@@ -55,30 +55,27 @@ Fine-tuned Transformer Model
 
 ## 📁 Project Structure
 
+```
 project-root/
-│
 ├── backend/
-│ ├── server.py # API server (serves translation requests)
-│ ├── demo.py # Demo script for testing
-│ ├── requirements.txt # Python dependencies
-│ ├── setup.py # Package setup (if applicable)
-│ └── src/
-│ └── translate_pipeline.py # Translation inference pipeline
-│
+│   ├── server.py                 # API server (serves translation requests)
+│   ├── demo.py                   # Demo script for testing
+│   ├── requirements.txt          # Python dependencies
+│   ├── setup.py                  # Package setup (if applicable)
+│   └── src/
+│       └── translate_pipeline.py # Translation inference pipeline
 ├── frontend/
-│ ├── src/
-│ │ ├── App.jsx # Main React component
-│ │ ├── main.jsx # Entry point
-│ │ └── components/
-│ │ └── TranslatorBox.jsx # Translation UI component
-│ │
-│ ├── index.html # HTML template
-│ ├── package.json # Frontend dependencies
-│ └── vite.config.js # Vite configuration
-│
-├── code_du_doan.py # Additional prediction script
-│
-└── README.md # Project documentation
+│   ├── src/
+│   │   ├── App.jsx               # Main React component
+│   │   ├── main.jsx              # Entry point
+│   │   └── components/
+│   │       └── TranslatorBox.jsx # Translation UI component
+│   ├── index.html                # HTML template
+│   ├── package.json              # Frontend dependencies
+│   └── vite.config.js            # Vite configuration
+├── code_du_doan.py               # Additional prediction script
+└── README.md                     # Project documentation
+```
 
 ---
 
