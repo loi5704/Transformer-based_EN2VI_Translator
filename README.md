@@ -12,37 +12,36 @@ The system demonstrates a complete end-to-end machine learning pipeline,
 including model adaptation, inference deployment, and full-stack
 integration via a web application.
 
-------------------------------------------------------------------------
+---
 
 ## ✨ Key Highlights
 
--   Fine-tuned a state-of-the-art Transformer model for EN → VI
-    translation
--   Built a complete ML pipeline: preprocessing → training → inference
--   Developed RESTful API for real-time translation
--   Designed a modern frontend UI for user interaction
--   Structured project following production-level practices
+- Fine-tuned a state-of-the-art Transformer model for EN → VI
+  translation
+- Built a complete ML pipeline: preprocessing → training → inference
+- Developed RESTful API for real-time translation
+- Designed a modern frontend UI for user interaction
+- Structured project following production-level practices
 
-------------------------------------------------------------------------
+---
 
 ## 🧠 Model & Methodology
 
 ### Base Model
 
--   Model: Helsinki-NLP/opus-mt-en-vi
--   Architecture: Transformer (encoder--decoder)
--   Tokenization: SentencePiece
+- Model: Helsinki-NLP/opus-mt-en-vi
+- Architecture: Transformer (encoder--decoder)
+- Tokenization: SentencePiece
 
 ### Fine-tuning Approach
 
--   Adapted pretrained model to custom dataset
--   Improved domain-specific translation quality
--   Optimized inference for real-time usage
+- Adapted pretrained model to custom dataset
+- Improved domain-specific translation quality
+- Optimized inference for real-time usage
 
-Pipeline: 1. Data preprocessing 2. Tokenization 3. Fine-tuning 4.
-Evaluation 5. Deployment
+Pipeline: 1. Data preprocessing $\rightarrow$ 2. Tokenization $\rightarrow$ 3. Fine-tuning $\rightarrow$ 4.Evaluation $\rightarrow$ 5. Deployment
 
-------------------------------------------------------------------------
+---
 
 ## 🏗️ System Architecture
 
@@ -52,16 +51,36 @@ Backend API (Python - FastAPI/Flask)\
 ↓\
 Fine-tuned Transformer Model
 
-------------------------------------------------------------------------
+---
 
 ## 📁 Project Structure
 
-backend/ - server.py - demo.py - requirements.txt -
-src/translate_pipeline.py
+project-root/
+│
+├── backend/
+│ ├── server.py # API server (serves translation requests)
+│ ├── demo.py # Demo script for testing
+│ ├── requirements.txt # Python dependencies
+│ ├── setup.py # Package setup (if applicable)
+│ └── src/
+│ └── translate_pipeline.py # Translation inference pipeline
+│
+├── frontend/
+│ ├── src/
+│ │ ├── App.jsx # Main React component
+│ │ ├── main.jsx # Entry point
+│ │ └── components/
+│ │ └── TranslatorBox.jsx # Translation UI component
+│ │
+│ ├── index.html # HTML template
+│ ├── package.json # Frontend dependencies
+│ └── vite.config.js # Vite configuration
+│
+├── code_du_doan.py # Additional prediction script
+│
+└── README.md # Project documentation
 
-frontend/ - React UI
-
-------------------------------------------------------------------------
+---
 
 ## ⚙️ Tech Stack
 
@@ -71,13 +90,13 @@ Backend: - FastAPI / Flask
 
 Frontend: - React - Vite
 
-------------------------------------------------------------------------
+---
 
 ## 🚀 Getting Started
 
 ### Backend
 
-``` bash
+```bash
 cd backend
 pip install -r requirements.txt
 python server.py
@@ -85,13 +104,13 @@ python server.py
 
 ### Frontend
 
-``` bash
+```bash
 cd frontend
 npm install
 npm run dev
 ```
 
-------------------------------------------------------------------------
+---
 
 ## 📡 API Example
 
@@ -101,39 +120,39 @@ Request: { "text": "Hello, how are you?" }
 
 Response: { "translation": "Xin chào, bạn khỏe không?" }
 
-------------------------------------------------------------------------
+---
 
 ## 📈 Future Improvements
 
--   Improve BLEU score
--   Domain fine-tuning
--   Cloud deployment
--   Add translation history
+- Improve BLEU score
+- Domain fine-tuning
+- Cloud deployment
+- Add translation history
 
-------------------------------------------------------------------------
+---
 
 ## 💼 Why This Project Matters
 
--   Demonstrates NLP & Deep Learning knowledge
--   Shows fine-tuning pretrained models
--   End-to-end ML system building
--   Full-stack integration
+- Demonstrates NLP & Deep Learning knowledge
+- Shows fine-tuning pretrained models
+- End-to-end ML system building
+- Full-stack integration
 
-------------------------------------------------------------------------
+---
 
 ## 👨‍💻 Authors
 
--   Nguyen Tran Loi\
--   Tran Minh Tam\
--   Mai Xuan Quy
+- Nguyen Tran Loi
+- Tran Minh Tam
+- Mai Xuan Quy
 
-------------------------------------------------------------------------
+---
 
 ## 📜 License
 
 MIT
 
-------------------------------------------------------------------------
+---
 
 ## 🔗 References
 
