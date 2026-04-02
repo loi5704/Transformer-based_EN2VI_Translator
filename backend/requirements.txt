@@ -1,0 +1,8 @@
+torch
+numpy
+pandas
+transformers
+Flask
+flask_cors
+sentencepiece
+-e .
