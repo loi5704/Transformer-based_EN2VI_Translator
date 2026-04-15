@@ -6,7 +6,7 @@ This project implements a Neural Machine Translation (NMT) system for
 translating English to Vietnamese, built by fine-tuning a pretrained
 Transformer model from:
 
-https://huggingface.co/Helsinki-NLP/opus-mt-en-vi
+https://huggingface.co/Helsinki-NLP/opus-mt-en-vi and https://huggingface.co/CLAck/en-vi
 
 The system demonstrates a complete end-to-end machine learning pipeline,
 including model adaptation, inference deployment, and full-stack
@@ -29,7 +29,7 @@ integration via a web application.
 
 ### Base Model
 
-- Model: Helsinki-NLP/opus-mt-en-vi
+- Model: Helsinki-NLP/opus-mt-en-vi and CLAck/en-vi
 - Architecture: Transformer (encoder--decoder)
 - Tokenization: SentencePiece
 
