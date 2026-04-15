@@ -153,4 +153,5 @@ MIT
 
 ## 🔗 References
 
-https://huggingface.co/Helsinki-NLP/opus-mt-en-vi
+https://huggingface.co/Helsinki-NLP/opus-mt-en-vi  
+https://huggingface.co/CLAck/en-vi
